@@ -26,11 +26,7 @@ class SigninController extends Controller
         return view('MemberView::signin');
     }
 
-    /**
-     * Register a member in database
-     *
-     * @return Redirect
-     */
+    
     public function signIn(Request $request){
         Validator::make($request->all(),[
             'email' => ['required','string','email','max:255'],
