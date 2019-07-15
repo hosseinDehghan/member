@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 namespace Hosein\Members\Controllers;
 
@@ -10,11 +10,7 @@ use App\Http\Controllers\Controller;
 
 class SigninController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
+    
     public function __construct()
     {
 
